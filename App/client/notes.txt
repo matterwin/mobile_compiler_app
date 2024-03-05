@@ -1,0 +1,64 @@
+# Brainstorm
+
+- add a json version of the data, like the json picture on the apple watch
+- allow users to search up companies and add that to their dash
+- make it folder based, and allow users to add folders into other folders and that adds allow monetary values into one
+- so each folder has "files" or more so just the different spendings they consumed 
+- users' files are companies they spent money on
+- allow users to make their own "file" to keep track of whatever
+
+- account based (maybe oauth or firebase)
+- no profile picture 
+- no sharing of monetary calculations (for the beta)
+
+
+# Layout
+
+- for now 2 bottom tabs: spent spreadsheets and data & analytics (monthy or daily or yearly)
+- built in calculator maybe on navbar
+
+- drawers on left and right top
+
+- navbar for the money spent would be like instagrams share a video grid
+- but instead of profile pictures it is folders and names of folders and files
+- each "file" is named whatever and contains the layout for spendings/savings
+- in future have a savings vs spendings top tabs, but for now do only spendings
+- navbar will have a folder icon, and will bring you to your previous looked-at file
+
+- navbar highlights look like windows 11 highlights
+
+- left drawer of profile and allow users to make and save their own tabs like reddit
+- the tabs would be separated like Your tabs, Recently visited, and some other tabs 
+
+- make it like a game where everytime you track your expenses, you get points and there will be a ranking system of noob to pro to ceo to bezos
+
+- floatly up navbar where i'll have an icon for the tracker and if you pull up on the navbar, itll go up screen and you'll see your pinned or all your trackings
+- this applies to any tab as well 
+
+- have faceid lock whenever you put more sensitive information on the app to warn the user first if anyone is looking
+
+
+# Later down the line
+
+- allow users to make shareable templates
+- profile sharing
+- monetary calculations sharing
+- above includes a system of networking to find and share with friends/family/workers
+
+- template sheets for children savings, school
+
+
+# Colors
+
+- blue, green, grey, purple
+
+- #0b2626, #0b2226, #0062ff, #1e4147
+
+
+# Tech stack
+
+- React-Native
+- Express
+- MySQL
+- Expo
+- Redux
