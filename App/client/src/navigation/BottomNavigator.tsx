@@ -11,9 +11,8 @@ const Tab = createBottomTabNavigator();
 const getTabBarIcon = (routeName: String, focused: boolean, color: ColorValue) => {
     let iconName;
 
-    if(routeName === "Sheet") iconName = focused ? 'wallet' : 'wallet';
-    if(routeName === "Reports") iconName = focused ? 'person' : 'person';
-    if(routeName === "Folders") iconName = focused ? 'folder-open' : 'folder';
+    if(routeName === "Sheet") iconName = focused ? 'code-working' : 'code-working';
+    if(routeName === "Reports") iconName = focused ? 'settings' : 'settings';
 
     if(focused){
         return (
@@ -34,8 +33,8 @@ function BottomNavigator() {
             screenOptions={({ route }) => ({
                 tabBarStyle: {
                     ...styles.tabBarStyle,
-                    backgroundColor: (route.name == 'Sheet') ? COLORS.teal : COLORS.deepgreen,
-                    borderTopColor: (route.name == 'Sheet') ? COLORS.tealwhite : 'transparent',
+                    backgroundColor: (route.name == 'Sheet') ? COLORS.deepgreen : COLORS.deepgreen,
+                    borderTopColor: (route.name == 'Sheet') ? 'transparent' : 'transparent',
                 },
                 tabBarShowLabel: false,
                 tabBarActiveTintColor: COLORS.lightblue,

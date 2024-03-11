@@ -8,16 +8,15 @@ import { useNavigation } from '@react-navigation/native';
 
 const Tab = createMaterialTopTabNavigator();
 
-function SheetNavigator() {
+function TabNavigator() {
   const [tabs, setTabs] = useState([
-    { name: 'Test', component: Test },
-    { name: 'Test1', component: Test2 }
+    { name: 'Terminal-1', component: Test },
   ]);
 
   const navigation = useNavigation();  
 
   const addNewTab = () => {
-    const newTabName = `New Tab ${tabs.length + 1}`;
+    const newTabName = `Terminal-${tabs.length + 1}`;
     const newTab = { name: newTabName, component: Test2 };
 
     setTabs(prevTabs => {
@@ -94,7 +93,7 @@ function SheetNavigator() {
   );
 }
 
-export default SheetNavigator;
+export default TabNavigator;
 
 const styles = StyleSheet.create({
   addButton: {
